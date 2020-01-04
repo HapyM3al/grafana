@@ -22,3 +22,11 @@ If you run out of memory here is my optomisations done, this is because running 
 ```
 
 if you have existing data, going from tsm to tsi1 needs stopping and converting indexes, google is your friend. You will loose your data. Or well I did. Do it, on new or convert and switch off any alerting you have. 
+
+## Prometheus 
+
+Prometheus blackbox exporter is the best for whatever need to do for webscriping. Im using it to keep track of ssl certs. Best dashboard is here: https://grafana.com/grafana/dashboards/7587 
+
+## telegraf
+
+I recommend putting everything inside of /etc/telegraf/telegraf.d/ if you doing a large amount of configs. 
