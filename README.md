@@ -13,6 +13,7 @@ There is also a APIKey needed from pihole, google is your friend.
 
 ## influx
 
+
 If you run out of memory here is my optomisations done, this is because running on a vm and shared host that had 4gb memory moved to 8gb but still was brutal. I recommendation is run 8Gb and 2gb swap storage. In folder is my conf file for influx. I was running round 120 device pings and pulling whole IFtables of about 35 routers and that just ate memory, at minimum i suggest doing the below:
 
 ```
@@ -30,3 +31,4 @@ Prometheus blackbox exporter is the best for whatever need to do for webscraping
 ## telegraf
 
 I recommend putting everything inside of ```/etc/telegraf/telegraf.d/``` if you doing a large amount of configs. 
+
