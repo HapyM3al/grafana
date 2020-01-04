@@ -29,4 +29,4 @@ Prometheus blackbox exporter is the best for whatever need to do for webscraping
 
 ## telegraf
 
-I recommend putting everything inside of /etc/telegraf/telegraf.d/ if you doing a large amount of configs. 
+I recommend putting everything inside of ```/etc/telegraf/telegraf.d/``` if you doing a large amount of configs. 
