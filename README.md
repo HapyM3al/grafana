@@ -25,7 +25,7 @@ if you have existing data, going from tsm to tsi1 needs stopping and converting 
 
 ## Prometheus 
 
-Prometheus blackbox exporter is the best for whatever need to do for webscriping. Im using it to keep track of ssl certs. Best dashboard is here: https://grafana.com/grafana/dashboards/7587 
+Prometheus blackbox exporter is the best for whatever need to do for webscraping. Im using it to keep track of ssl certs. Best dashboard is here: https://grafana.com/grafana/dashboards/7587 
 
 ## telegraf
 
